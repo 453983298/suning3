@@ -1,0 +1,356 @@
+.clf:before,.clf:after{
+  content: '';
+  font-size: 0;
+  height: 0;
+  line-height: 0;
+  display: block;
+  clear: both;
+}
+*{
+  box-sizing: border-box;
+}
+ul,li{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: #F2F2F2;
+}
+section{
+  margin: 0;
+  padding: 0;
+}
+img{
+  border: 0;
+}
+header{
+  height: 1.7rem;
+  background: #F9BC09;
+  font-size: 0.5rem;
+  padding: 0 0.5rem;
+  .head-left{
+    float: left;
+    margin-top: 0.1rem;
+    a{
+      font-size: 0.1rem;
+      i{
+        display: block;
+        font-size: 0.8rem;
+      }
+    }
+  }
+  .head-center{
+    float: inherit;
+    background: #ffffff;
+    width: 9rem;
+    height: 1.18rem;
+    margin: 0 auto;
+    opacity: .8;
+    transform: translate3d(0,0.2rem,0);
+    border-radius: 0.2rem;
+    i{
+      font-size: .8rem;
+      line-height: 1.18rem;
+    }
+    input{
+      width: 7rem;
+      height: 1rem;
+      border: none;
+      margin-top: -0.8rem;
+    }
+  }
+  .head-right{
+    float: right;
+    margin-top: -1rem;
+    a{
+      font-size: 0.1rem;
+      i{
+        display: block;
+        font-size: 0.8rem;
+        margin: 0 auto;
+        text-align: center;
+      }
+    }
+  }
+}
+.banner{
+  width: 100%;
+  height: 6.1rem;
+  img{
+    width: 100%;
+    height: 100%;
+    float: left;
+  }
+}
+nav{
+  background: #ffffff;
+  padding:0.2rem;
+  padding-top: 0.5rem;
+  a{
+    display: block;
+    float: left;
+    width: 20%;
+    color: #666;
+    font-size: 0.5rem;
+    text-align: center;
+    margin-bottom: 0.5rem;
+    img{
+      width: 50%;
+      display: block;
+      margin: 0 auto;
+      margin-bottom: 0.3rem;
+    }
+  }
+}
+.title{
+  width: 100%;
+  height:2rem;
+  background: #ffffff;
+  .title-left{
+    width: 3rem;
+    height: 100%;
+    background: url(../images/tou.png)no-repeat center;
+    background-size: 100%;
+    float: left;
+  }
+  .line{
+    width: 1px;
+    height: 0.5rem;
+    color: #DCDCDC;
+    float: left;
+    margin-top: 0.4rem;
+  }
+  .title-right{
+    width: 10.4rem;
+    padding: 0.4rem;
+    float: right;
+    a{
+      font-size: .5rem;
+      display: block;
+      color: #333333;
+      span{
+        width: .15rem;
+        height: 0.15rem;
+        border-radius: 50%;
+        float: left;
+        margin-top: 0.1rem;
+        margin-right: 0.2rem;
+        display: block;
+        background-color: #ffc001;
+      }
+    }
+  }
+}
+.palm{
+  width: 100%;
+  margin-top: 0.5rem;
+  background: #ffffff;
+  .view{
+    height: 1.5rem;
+    .logo{
+      width: 2.6rem;
+      height: 100%;
+      margin-left: 0.5rem;
+      background: url(../images/palm.png)no-repeat center;
+      background-size: 100%;
+      float: left;
+    }
+    .tag{
+      font-size: 0.12rem;
+      float: left;
+      margin-left: 0.5rem;
+      line-height: 1.7rem;
+      color: #fa4b4b;
+    }
+    .count{
+      float: left;
+      margin-left: 0.5rem;
+      font-size: 0.5rem;
+      line-height: 1.7rem;
+      span{
+        border: 1px solid #333333;
+        border-radius: .1rem;
+      }
+      span:last-child{
+        border-color: #fa4b4b;
+        color: #fa4b4b;
+      }
+    }
+    a{
+      float: right;
+      font-size: .5rem;
+      color: #333333;
+      display: block;
+      text-align: center;
+      line-height: .9rem;
+      span{
+        margin-top: 0.45rem;
+        height: .8rem;
+        width: 2.3rem;
+        display: block;
+        float: right;
+        background-color: #ffc001;
+        border-radius: .3rem;
+      }
+      .right{
+        width: .3rem;
+        height: 1rem;
+        display: block;
+        float: right;
+        background: url(../images/right.png)no-repeat center;
+        background-size: 100%;
+        margin-top: .35rem;
+        margin-left: .2rem;
+        margin-right: .3rem;
+      }
+    }
+  }
+  .items{
+    width: 100%;
+    height: 5.3rem;
+    margin-bottom: 0.5rem;
+    ul{
+      height: 100%;
+      float: left;
+      li{
+        width: 4.2rem;
+        height: 3.17rem;
+        display: block;
+        float: left;
+        margin-left: .3rem;
+        img{
+          width: 100%;
+          border: 1px solid #dddddd;
+        }
+        .pre{
+          width: 100%;
+          height: 1.5rem;
+          background: #dddddd;
+          float: left;
+          margin-top: -.25rem;
+          margin-left: .05rem;
+          position: relative;
+          .price{
+            display: block;
+            margin-top: .2rem;
+            margin-left: .4rem;
+            font-size: .52rem;
+            color: #d00;
+          }
+          .sale{
+            display: block;
+            position: absolute;
+            top: -0.12rem;
+            right: .1rem;
+            padding-top: .1rem;
+            width: 1.44rem;
+            height: 1.52rem;
+            background: url(../images/sale.png) no-repeat;
+            background-size: 1.44rem 1.52rem;
+            color: #fff;
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+}
+.xin,.phone{
+  width: 100%;
+  a{
+    display: block;
+    float: left;
+    width: 50%;
+    font-size: 0;
+    img{
+      width: 100%;
+    }
+  }
+  a:first-child{
+    border-right: 1px solid #dddddd;
+  }
+}
+.xin{
+  a{
+    border-bottom: 1px solid #dddddd;
+  }
+}
+.jin{
+  margin-top: .5rem;
+  margin-bottom: .3rem;
+  .title{
+    height: 1.2rem;
+    background: url(../images/145914591429836587.png)no-repeat center;
+    background-size: 100%;
+    border-bottom: 1px solid #dddddd;
+  }
+  .content{
+    .left{
+      width: 50%;
+      float: left;
+      img{
+        width: 100%;
+      }
+    }
+    .right{
+      width: 50%;
+      float: left;
+      img{
+        width: 100%;
+        float: left;
+        border-left: 1px solid #dddddd;
+      }
+      .bottom{
+        width: 100%;
+        float: left;
+        border-top: 1px solid #dddddd;
+        img{
+          width: 50%;
+          float: left;
+        }
+      }
+    }
+  }
+}
+.big{
+  width: 100%;
+  img{
+    width: 100%;
+  }
+}
+.ts{
+  width: 100%;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+  .title{
+    height: 1.2rem;
+    background: url(../images/145914606659420042.png)no-repeat center;
+    background-size: 100%;
+    border-bottom: 1px solid #dddddd;
+  }
+  .content{
+    width: 100%;
+    font-size: 0;
+    .left,.right{
+      width: 50%;
+      float: left;
+      img{
+        width: 100%;
+        border-top: 1px solid #CCCCCC;
+      }
+      img:first-child{
+        border: 0;
+      }
+    }
+    .left{
+      border-right: 1px solid #dddddd;
+    }
+  }
+}
+footer{
+  width: 100%;
+  img{
+    width: 100%;
+  }
+}
